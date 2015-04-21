@@ -1,0 +1,36 @@
+/* CSS Document */
+.generateSelect{
+	width:150px;
+	position:relative;
+}
+.generateTitle{
+	width:140px;
+	border:1px solid #CCC;
+	display:inline-block;
+	padding:5px;
+	background:url(caret-down.png) no-repeat 125px center;
+	cursor:pointer;
+}
+.generatSelectors{
+	border:1px solid #CCC;
+	border-top:0;
+	min-height:40px;
+	max-height:120px;
+	overflow:auto;
+	list-style: outside none none;
+    margin: 0;
+    padding: 0;
+	position:absolute;
+	width:150px;
+	display:none;
+	z-index:9999;
+	background:#FFFFFF;
+}
+.generatSelectors li{
+	padding:5px;
+	cursor:pointer;
+}
+.generatSelectors li:hover, li.selected{
+	background:#0099CC;
+	color:#FFFFFF;
+}
